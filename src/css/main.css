@@ -1,0 +1,25 @@
+.absolute_center {
+    transform: translate(-50%, -50%);
+}
+
+.absolute_center_vertical {
+    transform: translate(0, -50%);
+}
+
+.absolute_center_horizontal {
+    transform: translate(-50%, 0);
+}
+
+.home_card_body:hover .home_card_body_content {
+    right: 0;
+}
+
+.home_layer_bottomleft_topright {
+    background: linear-gradient(217deg, #45f18d, #1752ea 100%),
+        linear-gradient(127deg, #45f18d, #45f18d 70.71%),
+        linear-gradient(336deg, #45f18d, #45f18d 70.71%);
+}
+
+.header_menu_item:hover {
+    color: #00d7ff;
+}
